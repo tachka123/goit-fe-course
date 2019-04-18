@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+.menu>.menu-select{
+    
+    display: inline;
+
+    
+}
+.menu-link{
+    text-align: center;
+    margin: auto;
+    color: #818181;
+    text-decoration: none;
+    font-stretch: extra-expanded
+}
+header{
+    text-align: center;
+    word-spacing: 122px;
+    font-family: playfair display;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 103px;
+    
+    
+    
+    
+}
+.menu-link:hover{
+    color: #03a9f4;
+}
+.article{
+    font-family: playfair display;
+    margin-right: 156px;
+    margin-left: 156px;
+width: 428px;
+    display: inline-block;
+    color: #818181;
+
+}
+.imgstyle{
+    width: 420px
+}
+.button{
+    text-align: center
+}
