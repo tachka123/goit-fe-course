@@ -1,45 +1,92 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:300");
+.menu > .menu-select {
+  display: inline;
+}
+.menu-link {
+  text-align: center;
+  margin: auto;
+  color: #818181;
+  text-decoration: none;
+  font-stretch: extra-expanded;
+}
+.header {
+  text-align: center;
+  word-spacing: 122px;
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 103px;
+  margin-top: 78px;
 
-.menu>.menu-select{
-    
-    display: inline;
+}
+.menu-link:hover {
+  color: #03a9f4;
+}
 
-    
+.button {
+  width: 162px;
+  align-content: center;
+  text-align: center;
+  border: 1px solid #626262;
+  padding: 10px;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 30px;
 }
-.menu-link{
-    text-align: center;
-    margin: auto;
-    color: #818181;
-    text-decoration: none;
-    font-stretch: extra-expanded
+.button-click {
+    padding: 0;
+    border: none;
+    font-family: "Playfair Display";
+    font-size: 20px;
+    color: #626262;
+    background-color: transparent;
+    cursor: pointer;
 }
-header{
-    text-align: center;
-    word-spacing: 122px;
-    font-family: playfair display;
-    font-size: 14px;
-    text-transform: uppercase;
-    margin-bottom: 103px;
-    
-    
-    
-    
-}
-.menu-link:hover{
+.button-click:hover {
     color: #03a9f4;
-}
-.article{
-    font-family: playfair display;
-    margin-right: 156px;
-    margin-left: 156px;
-width: 428px;
-    display: inline-block;
-    color: #818181;
+  }
 
+.cart1,
+.cart3,
+.cart5 {
+  width: 420px;
+  display: inline-block;
+  text-align: left;
+  margin-right: 30px;
 }
-.imgstyle{
-    width: 420px
+.cart2,
+.cart4,
+.cart6 {
+  width: 420px;
+  display: inline-block;
+  text-align: left;
 }
-.button{
-    text-align: center
+.cart1,
+.cart3 {
+  margin-bottom: 80px;
+}
+.carts {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  width: 960px;
+  margin: auto auto;
+  font-size: 14px
+}
+
+.little {
+  color: #b4ad9e;
+  font-family: ubuntu;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.artstyle {
+  color: #626262;
+}
+
+.title{
+    font-weight: normal;
+    font-size: 30px
+    
 }
