@@ -2,7 +2,8 @@
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:300");
 .menu > .menu-select {
   display: inline;
-  margin-right: 120px;
+  margin-right: 60px;
+  margin-left: 60px;
   text-align: center;
 }
 
@@ -59,9 +60,6 @@
   display: inline-block;
   text-align: left;
   vertical-align: top;
-}
-.cardbottom {
-  margin-bottom: 80px;
 }
 .cards {
   font-family: "Playfair Display", serif;
