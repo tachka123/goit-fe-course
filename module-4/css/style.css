@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,900");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:700");
+.menu-click {
+  display: inline-block;
+}
+.logo {
+  float: left;
+  font-family: roboto;
+  font-weight: 300;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #555252;
+  text-decoration: none;
+}
+header::after {
+  display: table;
+  clear: both;
+  content: "";
+  margin-bottom: 111px
+}
+.logo::first-letter {
+  font-weight: 900;
+  color: #1abc9c;
+}
+.menu {
+  float: right;
+}
+.body {
+  margin-left: 262px;
+  margin-right: 262px;
+  margin-top: 38px;
+}
+.menumarg {
+  margin-left: 34px;
+}
+.menu-link {
+  font-family: "Open sans";
+  text-decoration: none;
+  color: #0f0101;
+  text-transform: uppercase;
+}
+.menu-link:hover {
+  color: #1abc9c;
+}
+.title1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 48px;
+    font-family: roboto;
+    color: #515151;
+    border-bottom:solid ;
+    padding-bottom: 32px;
+    border-width: 7px 164px;
+
+    
+}
+
