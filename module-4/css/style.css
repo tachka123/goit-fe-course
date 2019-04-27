@@ -48,10 +48,14 @@ header::after {
     font-size: 48px;
     font-family: roboto;
     color: #515151;
-    border-bottom:solid ;
-    padding-bottom: 32px;
-    border-width: 7px 164px;
-
-    
+    text-transform: uppercase
 }
-
+ .title1::after{
+  margin: 20px auto 30px;
+  display: block;
+  content: '';
+  width: 164px;
+  height: 7px;
+  background-color: #19bb9b;
+  margin-bottom: 91px
+ }
