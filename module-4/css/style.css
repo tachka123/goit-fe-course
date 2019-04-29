@@ -59,3 +59,18 @@ header::after {
   background-color: #19bb9b;
   margin-bottom: 91px
  }
+ .wrap::after{
+   background-color: black;
+   content: "";
+   width: 90px
+ }
+
+.product{
+  width: 255px;
+  font-family: roboto;
+  font-weight: 900;
+background-color: #323232;
+text-transform: uppercase;
+color: white;
+vertical-align: middle
+}
