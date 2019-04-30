@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,900");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:700");
+* {
+  margin: 0;
+  padding: 0;
+}
 .menu-click {
   display: inline-block;
 }
@@ -16,7 +20,7 @@ header::after {
   display: table;
   clear: both;
   content: "";
-  margin-bottom: 111px
+  margin-bottom: 111px;
 }
 .logo::first-letter {
   font-weight: 900;
@@ -26,8 +30,9 @@ header::after {
   float: right;
 }
 .body {
-  margin-left: 262px;
-  margin-right: 262px;
+  width: 1110px;
+  margin-left: 180px;
+  margin-right:180px;
   margin-top: 38px;
 }
 .menumarg {
@@ -42,35 +47,138 @@ header::after {
 .menu-link:hover {
   color: #1abc9c;
 }
-.title1{
-    text-align: center;
-    font-weight: 900;
-    font-size: 48px;
-    font-family: roboto;
-    color: #515151;
-    text-transform: uppercase
+.title1 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 48px;
+  font-family: roboto;
+  color: #515151;
+  text-transform: uppercase;
 }
- .title1::after{
+.title1::after {
   margin: 20px auto 30px;
   display: block;
-  content: '';
+  content: "";
   width: 164px;
   height: 7px;
   background-color: #19bb9b;
-  margin-bottom: 91px
- }
- .wrap::after{
-   background-color: black;
-   content: "";
-   width: 90px
- }
+  margin-bottom: 91px;
+}
+.products{
+  margin-bottom: 104px
+}
 
-.product{
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+  }
+
+.product {
+  
+  font-size: 0;
   width: 255px;
+  height: 282px;
+  float: left;
+ margin-right: 30px;
+ margin-bottom: 70px;
+ display: block;
+ content: "";
+ 
+}
+.wrap {
+  width: 255px;
+  height: 283px;
+}
+
+.info {
+  width: 255px;
+  height: 40px;
+  background-color: #323232;
+  font-size: 18px;
   font-family: roboto;
   font-weight: 900;
-background-color: #323232;
-text-transform: uppercase;
-color: white;
-vertical-align: middle
+}
+.info:hover{
+  background-color: #19bb9b
+}
+
+.nprod {
+  color: white;
+  text-transform: uppercase;
+  width: 187px;
+  float: left;
+  margin-left: 13px;
+  line-height: 40px;
+}
+.price {
+  background-color: #8c8c8c;
+  height: 40px;
+  line-height: 40px;
+  float: left;
+  width: 55px;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+}
+
+.price::before {
+  content: "$";
+}
+.product1{
+  font-size: 0;
+  width: 255px;
+  height: 282px;
+  float: left;
+
+}
+.wrap2{
+
+  height: 262px;
+}
+.newm{
+  margin-right: 30px
+  
+}
+
+.new{
+width: 350px;
+margin-bottom: 20px;
+float: left;
+
+}
+.titnew{
+ font-size: 18px;
+ font-family: "open sans";
+ color: #555252
+
+}
+.titnew::after {
+  
+  display: block;
+  content: "";
+  width: 136px;
+  height: 3px;
+  background-color: #19bb9b;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.titaft{
+  font-family: "open sans";
+  font-size: 14px;
+  color: #555252;
+  margin-bottom: 30px
+}
+.btn{
+  height: 51px;
+  width: 159px;
+  background-color: #4ec6ab;
+  border: none;
+  border-radius: 4px;
+}
+.btntxt{
+  font-family: "open sans";
+  font-size: 16px;
+  color: white;
+  font-weight: 200
 }
