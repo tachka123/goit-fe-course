@@ -30,10 +30,10 @@ header::after {
   float: right;
 }
 .body {
-  width: 1110px;
-  margin-left: 180px;
-  margin-right:180px;
+  margin-left: 204px;
+  margin-right:204px;
   margin-top: 38px;
+  text-align: center
 }
 .menumarg {
   margin-left: 34px;
@@ -65,7 +65,9 @@ header::after {
   margin-bottom: 91px;
 }
 .products{
-  margin-bottom: 104px
+  margin-bottom: 104px;
+  text-align: center;
+  width: 1112px;
 }
 
 .clearfix::after{
@@ -74,17 +76,9 @@ header::after {
   clear: both;
   }
 
-.product {
-  
-  font-size: 0;
-  width: 255px;
-  height: 282px;
-  float: left;
- margin-right: 30px;
- margin-bottom: 70px;
- display: block;
- content: "";
- 
+.product:nth-of-type(4n){
+  margin-right: 0;
+ float: left;
 }
 .wrap {
   width: 255px;
@@ -125,13 +119,21 @@ header::after {
 .price::before {
   content: "$";
 }
-.product1{
+
+.product {
+  
   font-size: 0;
-  width: 255px;
   height: 282px;
   float: left;
-
+ margin-right: 30px;
+ margin-bottom: 70px;
+ display: block;
+ content: "";
+ display: table;
+ box-sizing: border-box
+ 
 }
+
 .wrap2{
 
   height: 262px;
