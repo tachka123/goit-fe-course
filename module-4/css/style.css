@@ -29,11 +29,10 @@ header::after {
 .menu {
   float: right;
 }
-.body {
-  width: 1110px;
-  margin-left: 180px;
-  margin-right:180px;
-  margin-top: 38px;
+.header {    
+  margin: 40px auto 100px;
+  max-width: 1120px;
+ 
 }
 .menumarg {
   margin-left: 34px;
@@ -65,7 +64,8 @@ header::after {
   margin-bottom: 91px;
 }
 .products{
-  margin-bottom: 104px
+  margin: auto auto 104px;
+  width: 1110px;
 }
 
 .clearfix::after{
@@ -74,18 +74,6 @@ header::after {
   clear: both;
   }
 
-.product {
-  
-  font-size: 0;
-  width: 255px;
-  height: 282px;
-  float: left;
- margin-right: 30px;
- margin-bottom: 70px;
- display: block;
- content: "";
- 
-}
 .wrap {
   width: 255px;
   height: 283px;
@@ -94,22 +82,28 @@ header::after {
 .info {
   width: 255px;
   height: 40px;
-  background-color: #323232;
   font-size: 18px;
   font-family: roboto;
   font-weight: 900;
 }
-.info:hover{
-  background-color: #19bb9b
+.info:hover .nprod{
+  background-color:#1abc9c
 }
+.info:hover .price{
+  background:#7fd9c7
+}
+
 
 .nprod {
   color: white;
   text-transform: uppercase;
-  width: 187px;
+  width: 200px;
   float: left;
-  margin-left: 13px;
   line-height: 40px;
+  background-color: #323232;
+  box-sizing: border-box;
+  padding-left: 30px
+  
 }
 .price {
   background-color: #8c8c8c;
@@ -125,27 +119,37 @@ header::after {
 .price::before {
   content: "$";
 }
-.product1{
+
+.product {
+  
   font-size: 0;
-  width: 255px;
   height: 282px;
   float: left;
-
+ margin-right: 30px;
+ margin-bottom: 70px;
+ display: block;
+ content: "";
+ display: table;
+ box-sizing: border-box;
+ 
 }
+.product:nth-of-type(4n){
+  margin-right: 0;
+}
+
 .wrap2{
 
   height: 262px;
-}
-.newm{
-  margin-right: 30px
-  
 }
 
 .new{
 width: 350px;
 margin-bottom: 20px;
 float: left;
-
+margin-right: 30px
+}
+.new:nth-of-type(3n){
+  margin-right: 0;
 }
 .titnew{
  font-size: 18px;
@@ -176,9 +180,16 @@ float: left;
   border: none;
   border-radius: 4px;
 }
+.btn:hover{
+  background-color: lightseagreen
+}
 .btntxt{
   font-family: "open sans";
   font-size: 16px;
   color: white;
   font-weight: 200
 }
+.news{
+  width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
