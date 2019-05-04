@@ -65,7 +65,7 @@ header::after {
 }
 .products{
   margin: auto auto 104px;
-  width: 1110px;
+  width: 1117px;
 }
 
 .clearfix::after{
@@ -86,10 +86,10 @@ header::after {
   font-family: roboto;
   font-weight: 900;
 }
-.info:hover .nprod{
+.product:hover .nprod{
   background-color:#1abc9c
 }
-.info:hover .price{
+.product:hover .price{
   background:#7fd9c7
 }
 
@@ -193,4 +193,3 @@ margin-right: 30px
   width: 1110px;
   margin-left: auto;
   margin-right: auto;
-}
