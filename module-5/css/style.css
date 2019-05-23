@@ -1,15 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,900");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:700");
-@import url('../fonts/Pe-icon-7-stroke.eot?d7yf1v');
+
 
 * {
   margin: 0;
   padding: 0;
 }
-.menu-click {
+.menu-item {
   display: inline-block;
 }
 .logo {
+  position: absolute;
+  top: -11px;
   float: left;
   font-family: roboto;
   font-weight: 300;
@@ -33,6 +35,7 @@ header::after {
 .header {
   margin: 40px auto 20px;
   max-width: 1120px;
+  position: relative;
 }
 .menumarg {
   margin-left: 34px;
@@ -242,7 +245,7 @@ header::after {
  margin-bottom: 70px;
  display: block;
  content: "";
- display: table;
+
  box-sizing: border-box;
  
 }
@@ -268,7 +271,7 @@ header::after {
   
 }
 .like{
-
+  position: relative;
   margin-top: 78px;
   margin-left: 30px;
   float: left;
@@ -304,8 +307,10 @@ header::after {
   line-height: 50px;
   font-size: 35px;
   margin-right: 8px;
+  position: relative;
 }
 .time{
+  
   margin-top: 78px;
   float: left;
   color: white;
@@ -316,11 +321,13 @@ header::after {
   list-style-type: none;
   font-size: 10px;
   border: solid;
+position: relative;
   text-align: center;
   line-height: 50px;
   font-size: 35px;
   margin-right: 0px;
 }
+
 .addcard{
   
   float: left;
@@ -335,7 +342,7 @@ header::after {
   color: white;
   text-decoration: none;
   list-style-type: none;
-
+position: relative;
   font-size: 14px;
   font-family: "Open sans";
   vertical-align: baseline;
@@ -343,20 +350,23 @@ header::after {
  
 }
 .like:hover{
-  background-color: #19bb9b;
+  background-color: rgba(25, 187, 155, 0.65);
+  
   
 }
 .time:hover{
-  background-color: #19bb9b;
+  background-color: rgba(25, 187, 155, 0.65);
 }
 .arrows:hover{
-  background-color: #19bb9b;
+  background-color: rgba(25, 187, 155, 0.65);
 }
 .addcard:hover{
-  background-color: #19bb9b;
+  
   background-color: black;
 }
-.addcard::first-letter{
-  font-size: 35px;
-  
+
+.add{
+  position: absolute;
+ bottom: 0px;
+ left: 60px;
 }
