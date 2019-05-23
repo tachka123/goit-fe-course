@@ -290,7 +290,7 @@ header::after {
  
 }
 .product:hover .prodhover{
-  display: block
+  display: block;
 }
 .arrows{
   margin-top: 78px;
