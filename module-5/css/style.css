@@ -350,15 +350,17 @@ position: relative;
  
 }
 .like:hover{
-  background-color: rgba(25, 187, 155, 0.65);
-  
+  background-color: rgba(25, 187, 155, 1);
+  border-color:  rgb(25, 187, 155)
   
 }
 .time:hover{
-  background-color: rgba(25, 187, 155, 0.65);
+  background-color: rgba(25, 187, 155, 1);
+  border-color:  rgb(25, 187, 155)
 }
 .arrows:hover{
-  background-color: rgba(25, 187, 155, 0.65);
+  background-color: rgba(25, 187, 155, 1);
+  border-color:  rgb(25, 187, 155)
 }
 .addcard:hover{
   
