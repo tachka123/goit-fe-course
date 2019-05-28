@@ -55,6 +55,7 @@ ul.menu-list li {
 .menu-click {
   color: #95e1d3;
   text-decoration: none;
+  transition: color 0.7s
 }
 .menu-item:hover .menu-click {
   color: #f38181;
@@ -68,7 +69,7 @@ ul.menu-list li {
   background: #f38181;
   bottom: 0;
   left: 50%;
-  transition: width .5s, left .5s;   
+  transition: width .7s, left .7s;   
 }
 .menu-item:hover::after {
   width: 100%;
@@ -210,62 +211,63 @@ p {
   width: 380px;
 }
 .hover {
-  transition: 1.2s ease;
+  transition: all 1.3s;
   height: 470px;
   width: 380px;
   display: flex;
   content: "";
-  position: absolute;
-  background: linear-gradient(
-    to top,
-    rgba(252, 227, 138, 0),
-    rgba(247, 177, 133, 0),
-    rgba(243, 129, 129, 0)
-  );
-  bottom: 0px;
+ position: relative;
   align-items: center;
   justify-content: center;
-  opacity: 0;
-  animation-fill-mode: both;
+  
 }
+.hoverhover{
+  transition: all 1.3s ;
+  height: 470px;
+  width: 380px;
+  position: absolute;
+  background: url(../img/hover/1.png);
+  opacity: 0;
+  z-index: 0;
+  right: 0;
+  bottom: 0;
+  
+}
+.cart:hover .hoverhover{
+  opacity: 0.9;
+  z-index: 2;
+  right: 10px;
+  bottom: 10px;
+}
+
 
 
 
 .devs{
   
 
-
+  position: absolute;
   bottom: 0;
   right: 0;
-  transition: 1s;
+  transition: all 1s;
   
 
 }
 
 .cart:hover .devs{
 
-  content:"";
-  position: absolute;
   bottom: 10px;
-    right: 10px;
+right: 10px;
  
 
 }
 
 .cart:hover .hover {
-  transition: 1s;
-  opacity: 1;
-  bottom: 10px;
-  right: 10px;
-  z-index: 3;
-  background: linear-gradient(
-    to top,
-    rgba(252, 227, 138, 0.9),
-    rgba(247, 177, 133, 0.9),
-    rgba(243, 129, 129, 0.9)
-  );
+
   
-  z-index: 2;
+  
+  
+
 }
 
 
@@ -290,16 +292,31 @@ p {
   font-weight: 300;
 }
 .visit {
+  position: relative;
+  transition: all 1.3s;
   display: flex;
   width: 55px;
   height: 55px;
   content: "";
+  display: relative;
   background-color: #fce38a;
-
+z-index: 0;
   margin: 0 1px;
   justify-content: center;
   align-items: center;
+  opacity: 0;
+  bottom: 0;
+  right: 0;
 }
 .visit:hover {
   background-color: #97dfd1;
+ 
+}
+
+
+.cart:hover .visit{
+  right: 10px;
+  bottom: 10px;
+  opacity: 1;
+  z-index: 5;
 }
