@@ -16,6 +16,11 @@ display: flex;
 	margin-bottom: 127px;
 
 }
+.logolink{
+	text-decoration: none;
+	text-transform: none;
+	color: gold
+}
 ul{
 	width: 485px;
 	display: flex;
