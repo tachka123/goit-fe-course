@@ -1,0 +1,199 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* HEADER *//* HEADER *//* HEADER */
+/* HEADER *//* HEADER *//* HEADER */
+header{
+	margin-top: 50px;
+display: flex;
+	max-width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: space-between;
+	align-items: baseline;
+	margin-bottom: 127px;
+
+}
+ul{
+	width: 485px;
+	display: flex;
+	justify-content: space-between;
+}
+li{
+	display: inline;
+
+
+}
+li:hover .link{
+	color: gold;
+}
+.link{
+	transition: 0.3s;
+	text-decoration: none;
+	color: #222222;
+	font-weight: bold;
+	text-transform: uppercase
+}
+.logo{
+	font-size: 26px;
+	font-family: "Wisdom";
+	color: gold
+}
+.nav{
+	font-size: 14px;
+	font-family: "Monserrat"
+}
+/* HEADER *//* HEADER *//* HEADER */
+/* HEADER *//* HEADER *//* HEADER */
+
+/* BLOCK1 *//* BLOCK1 *//* BLOCK1 */
+/* BLOCK1 *//* BLOCK1 *//* BLOCK1 */
+.block1{
+	margin-bottom: 123px;
+}
+.title{
+	text-align: center;
+	font-family: "MonserratBold";
+	font-weight: 800;
+	font-size: 40px;
+	text-transform: uppercase;
+}
+.title::after{
+	margin-top: 10px;
+	font-family: "Droidserif";
+	font-weight: 400;
+	font-size: 16px;
+	color: #777777;
+	text-transform: none;
+	display: block;
+	content: "Proin iaculis purus consequat sem cure.";
+	white-space: pre;
+	margin-bottom: 81px;
+}
+.services{
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	max-width: 940px;
+	justify-content: space-between;
+}
+.service{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	width: 290px;
+
+}
+.serv-img{
+	width: 73px;
+	margin-bottom: 25px;
+}
+.serv-title{
+
+	text-align: center;
+font-family: "MonserratBold"
+}
+.serv-text
+{
+	font-size: 14px;
+	margin-top: 20px;
+	text-align: center;
+	display: block;
+font-family: "RobotoSlab"
+}
+.block2{
+	background-image: url(../img/background/1.png);
+background-size: 100%;
+padding-bottom: 30px;
+}
+.title2{
+	padding-top: 111px;
+	text-align: center;
+	font-family: "MonserratBold";
+	font-weight: 800;
+	font-size: 40px;
+	text-transform: uppercase;
+	color: white;
+
+}
+
+.title2::after{
+	margin-top: 10px;
+	font-family: "Droidserif";
+	font-weight: 400;
+	font-size: 16px;
+	color: #777777;
+	text-transform: none;
+	display: block;
+	content: "Proin iaculis purus consequat sem cure.";
+	white-space: pre;
+	padding-bottom: 76px;
+}
+.forms{
+	width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+}
+.input{
+	width:455px;
+	height: 52px;
+	font-family: "MonserratBold";
+	margin-bottom: 27px
+
+}
+.input1{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+
+
+}
+.input2{
+font-size: 14px;
+	font-family: "MonserratBold";
+	position: relative;
+
+}
+input:invalid {
+outline: 2px solid red;
+   }
+   input:valid {
+	outline: 2px solid green;
+	   }
+.button{
+
+	width: 240px;
+	height: 66px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: gold;
+	border: 1px solid gold;
+	border-radius: 5px;
+	font-family: "MonserratBold";
+	font-size: 18px;
+	color: white
+}
+textarea:invalid{
+	outline: 2px solid red;
+}
+textarea:valid{
+	outline: 2px solid green;
+}
+.massage{
+
+	line-height: 20;
+	display: block;
+	height: 555px;
+    padding-top: 20px;
+	resize: none;
+
+}
+textarea::-webkit-input-placeholder { line-height: 50px;  }

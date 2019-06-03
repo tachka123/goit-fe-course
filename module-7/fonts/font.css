@@ -1,0 +1,22 @@
+@font-face {
+	font-family: "Monserrat";
+	src: url(Montserrat/montserrat-v13-latin-regular.woff2) format("woff2"),
+	 url(Montserrat/montserrat-v13-latin-regular.woff) format("woff");
+}
+@font-face {
+	font-family: "MonserratBold";
+	src: url(Montserrat/Montserrat-ExtraBold.woff) format("woff");
+	 font-weight: 800;
+}
+@font-face {
+	font-family: "Wisdom";
+	src:  url(Wisdom/d6ced0df95b7cc53e0eae88817930d08.woff2) format("woff2"),
+	 url(Wisdom/d6ced0df95b7cc53e0eae88817930d08.woff) format("woff");
+}
+@font-face {font-family: "Droidserif";
+	src: url(DroidSerif/DroidSerif-Italic.woff) format("woff")
+}
+@font-face{
+	font-family: "RobotoSlab";
+	src: url(RobotoSlab/RobotoSlab-Regular.woff) format("woff")
+}
