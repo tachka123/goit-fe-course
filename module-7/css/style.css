@@ -39,7 +39,8 @@ li:hover .link{
 	text-decoration: none;
 	color: #222222;
 	font-weight: bold;
-	text-transform: uppercase
+	text-transform: uppercase;
+font-family: "Monserrat"
 }
 .logo{
 	font-size: 26px;
@@ -60,7 +61,7 @@ li:hover .link{
 }
 .title{
 	text-align: center;
-	font-family: "MonserratBold";
+	font-family: "Monserrat";
 	font-weight: 800;
 	font-size: 40px;
 	text-transform: uppercase;
@@ -99,7 +100,8 @@ li:hover .link{
 .serv-title{
 
 	text-align: center;
-font-family: "MonserratBold"
+font-family: "Monserrat";
+font-weight: 800
 }
 .serv-text
 {
@@ -109,7 +111,7 @@ font-family: "MonserratBold"
 	display: block;
 font-family: "RobotoSlab"
 }
-.block2{
+.footer{
 	background-image: url(../img/background/1.png);
 background-size: 100%;
 padding-bottom: 30px;
@@ -117,7 +119,7 @@ padding-bottom: 30px;
 .title2{
 	padding-top: 111px;
 	text-align: center;
-	font-family: "MonserratBold";
+	font-family: "Monserrat";
 	font-weight: 800;
 	font-size: 40px;
 	text-transform: uppercase;
@@ -125,7 +127,7 @@ padding-bottom: 30px;
 
 }
 
-.title2::after{
+.title2after{
 	margin-top: 10px;
 	font-family: "Droidserif";
 	font-weight: 400;
@@ -133,9 +135,9 @@ padding-bottom: 30px;
 	color: #777777;
 	text-transform: none;
 	display: block;
-	content: "Proin iaculis purus consequat sem cure.";
 	white-space: pre;
 	padding-bottom: 76px;
+	text-align: center
 }
 .forms{
 	width: 940px;
@@ -149,8 +151,19 @@ padding-bottom: 30px;
 .input{
 	width:455px;
 	height: 52px;
-	font-family: "MonserratBold";
-	margin-bottom: 27px
+	font-family: "Monserrat";
+	margin-bottom: 27px;
+	padding-left: 20px;
+	font-weight: 800
+
+}
+.input3{
+	width:455px;
+	height: 52px;
+	font-family: "Monserrat";
+	margin-bottom: 27px;
+	padding-left: 20px;
+	font-weight: 800
 
 }
 .input1{
@@ -162,34 +175,41 @@ padding-bottom: 30px;
 }
 .input2{
 font-size: 14px;
-	font-family: "MonserratBold";
+	font-family: "Monserrat";
 	position: relative;
+	font-weight: 800
 
 }
-input:invalid {
+input:focus:invalid {
 outline: 2px solid red;
    }
-   input:valid {
-	outline: 2px solid green;
-	   }
+
+
+	   .input:focus:valid {
+		outline: 2px solid green;
+		   }
 .button{
 
-	width: 240px;
-	height: 66px;
+	padding-left: 48px;
+	padding-right: 48px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: gold;
 	border: 1px solid gold;
 	border-radius: 5px;
-	font-family: "MonserratBold";
+	font-family: "Monserrat";
 	font-size: 18px;
-	color: white
+	color: white;
+	font-weight: 800
 }
-textarea:invalid{
+
+textarea:focus:invalid{
 	outline: 2px solid red;
 }
-textarea:valid{
+textarea:focus:valid{
 	outline: 2px solid green;
 }
 .massage{

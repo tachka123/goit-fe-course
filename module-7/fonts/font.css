@@ -4,7 +4,7 @@
 	 url(Montserrat/montserrat-v13-latin-regular.woff) format("woff");
 }
 @font-face {
-	font-family: "MonserratBold";
+	font-family: "Monserrat";
 	src: url(Montserrat/Montserrat-ExtraBold.woff) format("woff");
 	 font-weight: 800;
 }
