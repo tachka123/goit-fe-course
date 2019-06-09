@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+box-sizing: border-box;
+}
+body{
+	max-width: 320px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center
+}
+.header{
+width: 100%;
+
+	background-image: url(../img/backgroundimg.png);
+padding-bottom: 100%
+
+}
+a{
+	text-decoration: none;
+	text-transform: none;
+}
+.log{
+
+	display: flex;
+	justify-content: space-between;
+	width: 47.1%;
+	margin: 20px auto 120px;
+	font-family: "Montserrat";
+	font-weight: 700;
+	font-size: 14px;
+	align-items: center;
+
+
+}
+.log a{
+	color: white;
+}
+.signup{
+border-radius: 50px;
+border: solid white 3px;
+padding: 8px 12px;
+}
+.sometext{
+	text-align: center;
+}
