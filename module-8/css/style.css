@@ -82,3 +82,14 @@ font-weight: 800;
 color: white;
 border: solid #ff4e50 ;
 }
+main{
+	min-width: 320px;
+	max-width: 767px;
+	margin: 0 auto;
+	text-align: center;
+}
+.title{
+	font-size: 21.8px;
+	font-family: "Montserrat";
+font-weight: 800;
+}
