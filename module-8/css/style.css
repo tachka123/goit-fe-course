@@ -15,8 +15,13 @@ body{
 width: 100%;
 background-repeat: no-repeat;
 	background-image: url(../img/backgroundimg.png) ;
-padding-bottom: 100%;
+padding-bottom: 25%;
 background-size: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 74px;
+
 
 }
 a{
@@ -85,11 +90,49 @@ border: solid #ff4e50 ;
 main{
 	min-width: 320px;
 	max-width: 767px;
-	margin: 0 auto;
+	margin: 0 auto 57px;
 	text-align: center;
 }
 .title{
 	font-size: 21.8px;
 	font-family: "Montserrat";
 font-weight: 800;
+margin-bottom: 20px;
+}
+.cards{
+	display: flex;
+	flex-direction: column;
+}
+.card{
+	margin-bottom: 32px;
+}
+.photo{
+	margin-bottom: 24px;
+	position: relative;
+}
+.ico{
+	position: absolute;
+	left: 184px;
+	bottom: -6px;
+}
+.name{
+	font-family: "Montserrat";
+	font-weight: 800;
+	font-size:13.97px;
+	margin-bottom: 19px;
+}
+.description{
+	font-family: "Roboto";
+	font-weight: 300;
+	font-size: 13.97px;
+	color: #666666;
+}
+.btn{
+	padding: 17px 73px;
+	background-color: white;
+	border-radius: 50px ;
+	color: #ff4e50;
+font-family: "Montserrat";
+font-weight: 800;
+border: solid #ff4e50 ;
 }
