@@ -9,6 +9,7 @@
 		flex-wrap: wrap;
 		justify-content: space-between
 	}
+
 	.log{
 		order: 1
 	}
@@ -22,7 +23,10 @@
 		order: 1
 	}
 	#p4{
-		order: 3
+		order: 3;
+		position: absolute;
+		right: 00px;
+		top: 248px;
 	}
 	.ico{
 		left: 80px;
@@ -41,12 +45,40 @@
 
 	}
 	.text3{
-		font-size: 24px
+		font-size: 24px;
+		width: 600px;
 	}
 	.title{
-		width: 404px;
+		width: 500px;
 	}
 }
 @media (min-width:1200px){
+.header{
+	background-image: url(../img/desktopbackground.png);
+	margin-bottom: 51px;
+	padding-bottom: 200px;
 
+}
+body{
+	min-width: 1200px;
+	max-width: 2000px;
+
+}
+.logtext{
+	width: 942px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px
+}
+.cards{
+	width: 942px;
+	align-items: baseline;
+}
+#p4{
+	position: relative;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+}
 }
