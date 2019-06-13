@@ -24,6 +24,13 @@ margin-bottom: 74px;
 
 
 }
+.logtext{
+	display: flex;
+flex-direction: column;
+align-items: center;
+width: 400px;
+
+}
 a{
 	text-decoration: none;
 	text-transform: none;
@@ -32,8 +39,8 @@ a{
 
 	display: flex;
 	justify-content: space-between;
-	width: 47.1%;
-	margin: 20px auto 120px;
+width: 152px;
+	margin: 20px 0 120px;
 	font-family: "Montserrat";
 	font-weight: 700;
 	font-size: 14px;
@@ -92,19 +99,29 @@ main{
 	max-width: 767px;
 	margin: 0 auto 57px;
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 .title{
 	font-size: 21.8px;
 	font-family: "Montserrat";
 font-weight: 800;
 margin-bottom: 20px;
+width: 261px;
 }
 .cards{
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 }
 .card{
 	margin-bottom: 32px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	width: 220px;
 }
 .photo{
 	margin-bottom: 24px;
@@ -112,7 +129,7 @@ margin-bottom: 20px;
 }
 .ico{
 	position: absolute;
-	left: 184px;
+	left: 80px;
 	bottom: -6px;
 }
 .name{

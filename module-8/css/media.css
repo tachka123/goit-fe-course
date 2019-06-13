@@ -1,0 +1,52 @@
+@media (min-width:768px){
+	body{
+		min-width: 768px;
+	max-width: 1199px;
+	}
+	.cards{
+		flex-direction: row;
+		width: 492px;
+		flex-wrap: wrap;
+		justify-content: space-between
+	}
+	.log{
+		order: 1
+	}
+	.header{
+		background-image: url(../img/tabletbackground.png)
+	}
+	#p2{
+		order:2
+	}
+	#p3{
+		order: 1
+	}
+	#p4{
+		order: 3
+	}
+	.ico{
+		left: 80px;
+	}
+	.logtext{
+		width: 671px;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: baseline
+	}
+	.card{
+		width: 220px
+	}
+	.text2{
+		font-size: 52px;
+
+	}
+	.text3{
+		font-size: 24px
+	}
+	.title{
+		width: 404px;
+	}
+}
+@media (min-width:1200px){
+
+}
