@@ -84,6 +84,9 @@ text-transform: uppercase;
 	font-size: 14px;
 	color: white;
 	padding-bottom: 20px;
+	width: 178px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .button{
 	padding: 17px 51px;
@@ -93,6 +96,9 @@ font-family: "Montserrat";
 font-weight: 800;
 color: white;
 border: solid #ff4e50 ;
+}
+a{
+	cursor: pointer
 }
 main{
 	min-width: 320px;
@@ -114,6 +120,8 @@ width: 261px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	vertical-align: top;
+	position: relative;
 }
 .card{
 	margin-bottom: 32px;
@@ -126,6 +134,9 @@ width: 261px;
 .photo{
 	margin-bottom: 24px;
 	position: relative;
+}
+button:hover{
+	cursor: pointer;
 }
 .ico{
 	position: absolute;
@@ -152,4 +163,5 @@ width: 261px;
 font-family: "Montserrat";
 font-weight: 800;
 border: solid #ff4e50 ;
+
 }
