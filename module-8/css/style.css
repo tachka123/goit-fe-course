@@ -21,8 +21,14 @@ display: flex;
 flex-direction: column;
 align-items: center;
 margin-bottom: 74px;
+justify-content: space-between;
+margin-left: auto;
+margin-right: auto
 
 
+}
+html{
+	overflow-x:  hidden;
 }
 .logtext{
 	display: flex;
@@ -50,7 +56,10 @@ width: 152px;
 }
 .log a{
 	color: white;
+	text-decoration: none;
+	text-transform: none;
 }
+
 .signup{
 border-radius: 50px;
 border: solid white 3px;
@@ -61,13 +70,24 @@ padding: 8px 12px;
 	width: 91.5%;
 	margin: 0 auto;
 }
-.text1{
+.logo a{
+text-decoration: none;
+text-transform: none;
+color: white
+}
+.logo {
+transform: rotate(0deg);
 font-family: "Montserrat";
 font-weight: 700;
 text-transform: uppercase;
 font-size: 20px;
 color: white;
 margin-bottom: 40px;
+transition: all 1.5s;
+}
+
+.logo:hover {
+	transform: rotate(-360deg)
 }
 .text2{
 	font-family: "Montserrat";
@@ -88,7 +108,7 @@ text-transform: uppercase;
 	margin-left: auto;
 	margin-right: auto;
 }
-.button{
+.button {
 	padding: 17px 51px;
 	background-color: #ff4e50;
 	border-radius: 50px ;
@@ -96,6 +116,13 @@ font-family: "Montserrat";
 font-weight: 800;
 color: white;
 border: solid #ff4e50 ;
+transition: 0.8s all
+
+}
+button:hover{
+	-webkit-box-shadow: 10px 10px 37px 12px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 37px 12px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 37px 12px rgba(0,0,0,0.75);
 }
 a{
 	cursor: pointer
@@ -163,5 +190,11 @@ button:hover{
 font-family: "Montserrat";
 font-weight: 800;
 border: solid #ff4e50 ;
+transition: 0.8s all;
 
+}
+.btn:hover{
+	-webkit-box-shadow: 10px 10px 37px 12px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 37px 12px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 37px 12px rgba(0,0,0,0.75);
 }
