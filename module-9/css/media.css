@@ -1,8 +1,5 @@
 @media (min-width:768px){
-	body{
-		min-width: 768px;
-	max-width: 1199px;
-	}
+
 	.cards{
 		flex-direction: row;
 		width: 492px;
@@ -94,11 +91,7 @@ main{
 	color: #ff4e50;
 
 }
-body{
-	min-width: 1200px;
-	max-width: 2000px;
 
-}
 .logtext{
 	width: 942px;
 	margin-left: auto;
