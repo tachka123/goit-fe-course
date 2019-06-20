@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	width: 1300px;
+	margin: 100px auto
+}
+.horse{
+
+
+	stroke-dasharray: 0 500px;
+	stroke-width: 2;
+	stroke:rebeccapurple;
+	transition: stroke-dasharray 2s;
+	fill: none
+}
+.svg{
+	fill: rebeccapurple;
+	transition: fill 0.4s;
+}
+.svg:hover{
+fill: red
+}
+.svg:hover .horse{
+stroke-dasharray: 500px 0
+}
+.svgsprite{
+	display: none
+}
