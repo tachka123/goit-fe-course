@@ -9,6 +9,13 @@
 }
 /* Header */
 /* Header */
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    header{
+      background-image: url(../img/background-header/bg@2x-min.png)
+    }
+}
 header{
   background-image: url(../img/background-header/bg.png);
   background-size: cover;
@@ -127,18 +134,18 @@ ul.nav_menu li {
   margin-bottom: 13px;
 }
 
-.footer--by {
+.footer__by {
   margin-top: 25px;
   font-family: "Montserrat";
   font-size: 14px;
   color: #333333;
 }
-.footer--author {
+.footer__author {
   text-decoration: none;
   text-transform: none;
   color: #f38181;
 }
-.footer--subscribe {
+.footer__subscribe {
   margin-top: 25px;
 }
 .input {
@@ -148,7 +155,7 @@ ul.nav_menu li {
   font-weight: 300;
 }
 
-.footer--button {
+.footer__button {
   height: 38px;
   width: 150px;
   font-family: "Montserrat";
@@ -171,11 +178,22 @@ ul.nav_menu li {
 
           justify-content: center;
 }
-.header--first-line {
-  font-family: "Kaushan Script";
-  font-size: 72px;
+.header__line {
+
   text-align: center;
   color: white
+}
+
+.header__line--first{
+  font-family: "Kaushan Script";
+  font-size: 72px;
+}
+.header__line--second{
+  text-transform: uppercase;
+  margin-bottom: 100px;
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 150px;
 }
 .header__title{
   text-align: center;
@@ -184,7 +202,7 @@ ul.nav_menu li {
   align-items: center;
 
 }
-.header--button{
+.header__button{
   width: 154px;
   height: 40px;
   background-color: transparent;
@@ -195,44 +213,41 @@ ul.nav_menu li {
   font-weight: 900;
   transition: all 0.8s;
 }
-.header--button:hover{
+.header__button:hover{
   -webkit-box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.75);
   box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.75);
 
 }
-.header--second-line {
-  text-transform: uppercase;
-  color: white;
-  font-family: "Montserrat";
-  font-weight: 900;
-  font-size: 150px;
+.services__line{
   text-align: center;
-  margin-bottom: 100px;
 }
-.services--first-line {
+.services__line--first {
   font-family: "Kaushan Script";
   font-size: 24px;
-  text-align: center;
+
 }
-.services--second-line {
+.services__line--second {
   font-family: "Montserrat";
   font-weight: 900;
   font-size: 30px;
   text-transform: uppercase;
+
+}
+.team__line{
   text-align: center;
 }
-.team--first-line {
+.team__line--first {
   font-family: "Kaushan Script";
   font-size: 24px;
-  text-align: center;
+
 }
-.team--second-line {
+.team__line--second {
   font-family: "Montserrat";
   font-weight: 900;
   font-size: 30px;
   text-transform: uppercase;
-  text-align: center;
+
 }
 
 .services__block-title::after {
@@ -273,7 +288,7 @@ ul.nav_menu li {
   -ms-flex-line-pack: justify;
       align-content: space-between;
 }
-.service--frstword {
+.service__frstword {
   display: block;
   font-family: "Montserrat";
   margin-bottom: 20px;
@@ -291,7 +306,7 @@ ul.nav_menu li {
 .service__servdesc {
   width: 270px;
 }
-.service--ico {
+.service__ico {
   width: 32px;
   height: 32px;
   margin-right: 30px;
@@ -312,7 +327,7 @@ ul.nav_menu li {
 .hidden{
   display: none
 }
-.hover--visit:hover .icon{
+.hover__visit:hover .icon{
   fill: #fce38a
 }
 
@@ -338,7 +353,7 @@ p {
   text-align: center;
 }
 
-.team--about {
+.team__about {
   font-size: 15px;
   font-family: "Roboto";
   font-weight: 400;
@@ -366,7 +381,7 @@ p {
           justify-content: center;
 
 }
-.cart--hoverhover{
+.cart__hoverhover{
   -webkit-transition: all 1.3s ;
   -o-transition: all 1.3s ;
   transition: all 1.3s ;
@@ -380,7 +395,7 @@ p {
   bottom: 0;
 
 }
-.cart:hover .cart--hoverhover{
+.cart:hover .cart__hoverhover{
   opacity: 0.9;
   z-index: 2;
   right: 10px;
@@ -390,7 +405,7 @@ p {
 
 
 
-.cart--devs{
+.cart__devs{
 
 width: 380px;
   position: absolute;
@@ -403,7 +418,7 @@ width: 380px;
 
 }
 
-.cart:hover .cart--devs{
+.cart:hover .cart__devs{
 
   bottom: 10px;
 right: 10px;
@@ -431,7 +446,7 @@ right: 10px;
   font-family: "Roboto";
   font-weight: 300;
 }
-.hover--visit {
+.hover__visit {
   position: relative;
   -webkit-transition: all 1.3s;
   -o-transition: all 1.3s;
@@ -456,13 +471,13 @@ z-index: 0;
   bottom: 0;
   right: 0;
 }
-.hover--visit:hover {
+.hover__visit:hover {
   background-color: #97dfd1;
 
 }
 
 
-.cart:hover .hover--visit{
+.cart:hover .hover__visit{
   right: 10px;
   bottom: 10px;
   opacity: 1;
