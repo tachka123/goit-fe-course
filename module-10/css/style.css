@@ -4,7 +4,6 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 /* Header */
@@ -31,14 +30,11 @@ header{
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
+
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
+
           justify-content: space-between;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
+
           align-items: flex-end;
 margin-bottom: 60px;
 
@@ -68,11 +64,9 @@ ul.nav_menu li {
   display: inline-block;
 }
 .nav_menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
+
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
+
           justify-content: space-between;
 
 }
@@ -85,8 +79,7 @@ ul.nav_menu li {
 .nav_click {
   color: white;
   text-decoration: none;
-  -webkit-transition: color 0.7s;
-  -o-transition: color 0.7s;
+
   transition: color 0.7s
 }
 .nav_item:hover .nav_click {
@@ -104,8 +97,7 @@ ul.nav_menu li {
   background: gold;
   bottom: 0;
   left: 50%;
-  -webkit-transition: width .7s, left .7s;
-  -o-transition: width .7s, left .7s;
+
   transition: width .7s, left .7s;
 }
 .nav_item:hover::after {
@@ -122,14 +114,10 @@ ul.nav_menu li {
   margin-left: auto;
   margin-right: auto;
   border-top: solid 1px #e5e5e5;
-  display: -webkit-box;
-  display: -ms-flexbox;
+
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
+
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
           align-items: center;
   margin-bottom: 13px;
 }
@@ -172,53 +160,10 @@ ul.nav_menu li {
 .services {
   text-align: center;
 
-  -webkit-box-pack: center;
-
-      -ms-flex-pack: center;
 
           justify-content: center;
 }
-.header__line {
 
-  text-align: center;
-  color: white
-}
-
-.header__line--first{
-  font-family: "Kaushan Script";
-  font-size: 72px;
-}
-.header__line--second{
-  text-transform: uppercase;
-  margin-bottom: 100px;
-  font-family: "Montserrat";
-  font-weight: 900;
-  font-size: 150px;
-}
-.header__title{
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-}
-.header__button{
-  width: 154px;
-  height: 40px;
-  background-color: transparent;
-  border: solid 3px white;
-  color: white;
-  text-transform: uppercase;
-  font-family: "Montserrat";
-  font-weight: 900;
-  transition: all 0.8s;
-}
-.header__button:hover{
-  -webkit-box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.75);
-  box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.75);
-
-}
 .services__line{
   text-align: center;
 }
@@ -276,16 +221,14 @@ ul.nav_menu li {
   background-color: #f38181;
 }
 .content1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
+
   display: flex;
-  -ms-flex-wrap: wrap;
+
       flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
+
           justify-content: space-between;
   text-align: center;
-  -ms-flex-line-pack: justify;
+
       align-content: space-between;
 }
 .service__frstword {
@@ -337,16 +280,15 @@ p {
 /* FIRSBLOCK */
 /* SECONDBLOCK */
 .content2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
+
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
+
+
           justify-content: space-between;
-  -ms-flex-line-pack: center;
+
       align-content: center;
   margin-bottom: 86px;
-  -ms-flex-wrap: wrap;
+
       flex-wrap: wrap;
 }
 .team {
@@ -363,8 +305,7 @@ p {
   width: 380px;
 }
 .cart__hover {
-  -webkit-transition: all 1.3s;
-  -o-transition: all 1.3s;
+
   transition: all 1.3s;
   height: 470px;
   width: 380px;
@@ -373,17 +314,14 @@ p {
   display: flex;
   content: "";
  position: relative;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
+
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
+
           justify-content: center;
 
 }
 .cart__hoverhover{
-  -webkit-transition: all 1.3s ;
-  -o-transition: all 1.3s ;
+
   transition: all 1.3s ;
   height: 470px;
   width: 380px;
@@ -411,8 +349,7 @@ width: 380px;
   position: absolute;
   bottom: 0;
   right: 0;
-  -webkit-transition: all 1s;
-  -o-transition: all 1s;
+
   transition: all 1s;
 
 
@@ -448,8 +385,7 @@ right: 10px;
 }
 .hover__visit {
   position: relative;
-  -webkit-transition: all 1.3s;
-  -o-transition: all 1.3s;
+
   transition: all 1.3s;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -461,11 +397,9 @@ right: 10px;
   background-color: #fce38a;
 z-index: 0;
   margin: 0 1px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
+
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
+
           align-items: center;
   opacity: 0;
   bottom: 0;
