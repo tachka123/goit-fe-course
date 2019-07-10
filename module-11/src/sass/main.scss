@@ -1,0 +1,267 @@
+main {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Footer */
+/* Footer */
+/* Body */
+/* FIRSTBLOCK */
+.services {
+  text-align: center;
+
+  justify-content: center;
+
+  &__line {
+    text-align: center;
+  }
+
+  &__line--first {
+    font-family: 'Kaushan Script';
+    font-size: 24px;
+  }
+
+  &__line--second {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+
+  &__block-title::after {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 66px;
+    text-align: center;
+    display: block;
+    content: '';
+    margin-top: 42px;
+    width: 60px;
+    height: 3px;
+    background-color: $color2;
+  }
+}
+
+.content1 {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+  text-align: center;
+
+  align-content: space-between;
+}
+
+.service {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: left;
+  font-family: 'Roboto';
+  font-size: 15px;
+  width: 350px;
+  margin-bottom: 96px;
+
+  &__servdesc {
+    width: 270px;
+  }
+
+  &__ico {
+    width: 32px;
+    height: 32px;
+    margin-right: 30px;
+  }
+
+  &__frstword {
+    display: block;
+    font-family: 'Montserrat';
+    margin-bottom: 20px;
+  }
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  fill: $color2;
+  transition: all 0.9s;
+}
+
+.fill {
+  color: white;
+  transition: 0.7s all;
+}
+
+.hidden {
+  display: none;
+}
+
+.hover__visit:hover .icon {
+  fill: #fce38a;
+}
+
+p {
+  color: #999999;
+}
+
+/* FIRSBLOCK */
+/* SECONDBLOCK */
+.content2 {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-content: center;
+  margin-bottom: 86px;
+
+  flex-wrap: wrap;
+}
+
+.team {
+  text-align: center;
+
+  &__about {
+    font-size: 15px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    margin-bottom: 96px;
+  }
+
+  &__block-title::after {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 66px;
+    text-align: center;
+    display: block;
+    content: '';
+    margin-top: 42px;
+    width: 60px;
+    height: 3px;
+    background-color: $color2;
+  }
+
+  &__line {
+    text-align: center;
+  }
+
+  &__line--first {
+    font-family: 'Kaushan Script';
+    font-size: 24px;
+  }
+
+  &__line--second {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+}
+
+.cart {
+  width: 380px;
+
+  &__hover {
+    transition: all 1.3s;
+    height: 470px;
+    width: 380px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    content: '';
+    position: relative;
+
+    align-items: center;
+
+    justify-content: center;
+  }
+
+  &__hoverhover {
+    transition: all 1.3s;
+    height: 470px;
+    width: 380px;
+    position: absolute;
+    background: url(../images/devs/hover.png);
+    opacity: 0;
+    z-index: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  &:hover &__hoverhover {
+    opacity: 0.9;
+    z-index: 2;
+    right: 10px;
+    bottom: 10px;
+  }
+
+  &:hover &__devs {
+    bottom: 10px;
+    right: 10px;
+  }
+
+  &__devs {
+    width: 380px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    transition: all 1s;
+  }
+
+  &__photo {
+    position: relative;
+    background-color: $color4;
+    margin-bottom: 31px;
+    height: 470px;
+  }
+
+  &:hover .hover__visit {
+    right: 10px;
+    bottom: 10px;
+    opacity: 1;
+    z-index: 5;
+  }
+}
+
+.name {
+  font-family: 'Montserrat';
+  display: block;
+  margin-bottom: 16px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.spec {
+  font-size: 15px;
+  color: #999999;
+  font-family: 'Roboto';
+  font-weight: 300;
+}
+
+.hover__visit {
+  position: relative;
+
+  transition: all 1.3s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 55px;
+  height: 55px;
+  content: '';
+  display: relative;
+  background-color: #fce38a;
+  z-index: 0;
+  margin: 0 1px;
+
+  justify-content: center;
+
+  align-items: center;
+  opacity: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.hover__visit:hover {
+  background-color: #97dfd1;
+}

@@ -1,0 +1,44 @@
+.footer {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	border-top: solid 1px $color3;
+
+	display: flex;
+
+			justify-content: space-between;
+			align-items: center;
+	margin-bottom: 13px;
+	&__by {
+		margin-top: 25px;
+		font-family: "Montserrat";
+		font-size: 14px;
+		color: #333333;
+	  }
+	  &__author {
+		text-decoration: none;
+		text-transform: none;
+		color: $color2;
+	  }
+	  &__subscribe {
+		margin-top: 25px;
+	  }
+	  .input {
+		height: 38px;
+		width: 228px;
+		font-family: "Roboto";
+		font-weight: 300;
+	  }
+
+	  &__button {
+		height: 38px;
+		width: 150px;
+		font-family: "Montserrat";
+		font-weight: 900;
+		font-size: 14px;
+		background-color: $color4;
+		border: none;
+		color: white;
+	  }
+  }
+
