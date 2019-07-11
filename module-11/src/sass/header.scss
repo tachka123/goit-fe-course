@@ -1,11 +1,11 @@
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   header {
-    background-image: url(/images/background@2x.jpg);
+    background-image: url(../images/background@2x.jpg);
   }
 }
 
 header {
-  background-image: url(/images/background.jpg);
+  background-image: url(../images/background.jpg);
   background-size: cover;
   padding: 10px;
   margin-bottom: 112.5px;

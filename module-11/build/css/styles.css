@@ -382,7 +382,7 @@ template {
 }
 
 header {
-  background-image: url(/images/background.jpg);
+  background-image: url(../images/background.jpg);
   background-size: cover;
   padding: 10px;
   margin-bottom: 112.5px;
@@ -688,7 +688,7 @@ p {
   height: 470px;
   width: 380px;
   position: absolute;
-  background: url(/images/devs/hover.png);
+  background: url(../images/devs/hover.png);
   opacity: 0;
   z-index: 0;
   right: 0;
@@ -814,6 +814,6 @@ p {
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   header {
-    background-image: url(/images/background@2x.jpg);
+    background-image: url(../images/background@2x.jpg);
   }
 }
